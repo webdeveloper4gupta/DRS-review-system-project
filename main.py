@@ -79,7 +79,7 @@ SET_HEIGHT = 368
 
 # Tkinter gui starts here
 window = tkinter.Tk()
-window.title("CodeWithHarry Third Umpire Decision Review Kit")
+window.title("mahajan sahab third umpire kit")
 cv_img = cv2.cvtColor(cv2.imread("welcome.png"), cv2.COLOR_BGR2RGB)
 canvas = tkinter.Canvas(window, width=SET_WIDTH, height=SET_HEIGHT)
 photo = PIL.ImageTk.PhotoImage(image=PIL.Image.fromarray(cv_img))
